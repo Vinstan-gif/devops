@@ -1,0 +1,5 @@
+FROM python:3.8.5
+
+ADD /python_trial/main.py .
+
+CMD ["python", "./main.py"]
